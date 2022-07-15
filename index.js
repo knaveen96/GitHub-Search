@@ -14,7 +14,8 @@ ReactDOM.render(
     <Auth0Provider
       domain='dev-lkxwejsw.us.auth0.com'
       clientId='GRrIQGkfRbSomgUeAxNWZCdGD4Duy5Zq'
-      redirectUri={window.location.origin}>
+      redirectUri={window.location.origin}
+      cacheLocation='localstorage'>
       <GithubProvider>
         <App />
       </GithubProvider>
